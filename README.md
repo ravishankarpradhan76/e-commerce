@@ -29,6 +29,6 @@ This is a mobile e-commerce application built using Flutter. It provides users w
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/e-commerce-app.git
+   git clone https://github.com/e-commerce/e-commerce-app.git
    cd e-commerce-app
 
