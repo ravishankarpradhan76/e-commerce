@@ -30,6 +30,8 @@ class HomeScreen extends StatelessWidget{
             padding: const EdgeInsets.only(left: 130,bottom: 120),
             child: Row(// Align items at the bottom
               children: [
+                
+
                 Text(
                   'D',
                   style: TextStyle(fontSize: 35, fontWeight: FontWeight.w700, color: Colors.green),
