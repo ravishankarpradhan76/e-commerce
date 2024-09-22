@@ -23,7 +23,7 @@ class HomeScreen extends StatelessWidget{
     return Scaffold(
       appBar: AppBar(),
 
-      body:Container(
+      body:SizedBox(
           height: double.infinity,
           width: double.infinity,
           child: Padding(
