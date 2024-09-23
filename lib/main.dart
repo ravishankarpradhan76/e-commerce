@@ -1,3 +1,5 @@
+import 'package:ecommerce/pages/Log_In.dart';
+import 'package:ecommerce/pages/Splash_Screen.dart';
 import 'package:ecommerce/pages/welcome_page.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const WelcomePage(),
+      home: SplashScreen(),
     );
   }
 }

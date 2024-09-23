@@ -9,26 +9,24 @@ class CommonButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: MediaQuery.of(context).size.width / 1,
-      height: AppSizes.buttonHeight,
+      width: 300,
+      height: 45,
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
             Colors.blue.shade700,
             Colors.blue.shade700,
             Colors.blue.shade300,
-            Colors.blue.shade300,
+            Colors.blue.shade200,
           ],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
         ),
         borderRadius: BorderRadius.circular(8),
         boxShadow: [
           BoxShadow(
             color: Colors.blue.withOpacity(0.2),
-            spreadRadius: 4,
+            spreadRadius: 3,
             blurRadius: 10,
-            offset: const Offset(-5, 6),
+            offset: const Offset(-2, 4),
           ),
         ],
       ),
@@ -38,7 +36,7 @@ class CommonButton extends StatelessWidget {
         style: const TextStyle(
           color: Colors.white,
           fontSize: 14,
-          fontWeight: FontWeight.w500,
+          fontWeight: FontWeight.w400,
         ),
       ),
     );
