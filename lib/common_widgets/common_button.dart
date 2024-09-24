@@ -17,7 +17,7 @@ class CommonButton extends StatelessWidget {
             Colors.blue.shade700,
             Colors.blue.shade700,
             Colors.blue.shade300,
-            Colors.blue.shade200,
+            Colors.blue.shade300,
           ],
         ),
         borderRadius: BorderRadius.circular(8),
